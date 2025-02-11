@@ -1,0 +1,11 @@
+[package]
+name = "schema"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+serde = { version = "1.0", features = ["derive"] }
+chrono = {version = "0.4", features = ["serde"] }
+uuid = { version = "1", features = ["v4", "serde"] }
+utoipa = { version = "5", features = ["actix_extras","chrono"] }
+utoipa-swagger-ui = { version = "9", features = ["actix-web"] }
