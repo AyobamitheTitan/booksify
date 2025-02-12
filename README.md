@@ -31,7 +31,7 @@ Create a ``.env`` file. The expected contents of the file are contained in the `
 
 ## Design choices
 
-I got some inspiration for the file structure on the Actix-web example apps on their github [repository](). Other than that, my main inspiration for file arrangement was from my work with FastAPI, which has been my tool of choice for building backend APIs over the pas couple months.
+I got some inspiration for the file structure on the Actix-web example apps on their github [repository](https://github.com/actix/examples#readme). Other than that, my main inspiration for file arrangement was from my work with FastAPI, which has been my tool of choice for building backend APIs over the pas couple months.
 
 __Below are the directories and what they contain:__
 
